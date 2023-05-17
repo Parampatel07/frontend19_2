@@ -1,0 +1,20 @@
+&nbsp; - for space
+br - for new line 
+hr - horizontal line 
+b - bold text 
+i - italic text
+u - underline text 
+strike - line on text (cut line)
+font - use to style font 
+img - for images
+h1-h6 - for heading 
+p - paragrapgh
+div - for large group
+span - for small group
+table - for creating table 
+tr - for table row inside table 
+td - for table data(cell) inside tr 
+a - anchor tag for links (href)
+ul - unordered list 
+ol - ordered list 
+dummy text
