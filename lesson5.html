@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Git demo</title>
+     <title>Input tags</title>
 </head>
+
 <body>
-     
+     <h1 align="center">
+          Example of input tag
+     </h1>
+     <hr>
+     <form action="" method="">
+          Enter your name
+          <input type="text" name="input1" id="input1" placeholder="Name goes here..." required>
+
+          <input type="submit" value="Save ">
+     </form>
+     <br><br><br>
+     <form action="" method="post">
+          <table align="center" border="2" width="80%" cellpadding="2">
+               <tr>
+                    <td colspan="2" align="center">
+                         <h2>Type of inputs</h2>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your name
+                    </td>
+                    <td>
+                         <input type="text" name="username" id="" placeholder="Your name here" required>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your email
+                    </td>
+                    <td>
+                         <input type="email" name="email" id="email" placeholder="Enter email here " required>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your roll no
+                    </td>
+                    <td>
+                         <input type="number" name="rollno" id="" placeholder="Enter your roll no" required>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your mobile number
+                    </td>
+                    <td>
+                         <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Select your Gender
+                    </td>
+                    <td>
+                         <input type="radio" name="gender" value="1"> Male
+                         <input type="radio" name="gender" value="0"> Female
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Select your hobbies
+                    </td>
+                    <td>
+                         <input type="checkbox" name="hobbies" value="1">Hockey <br>
+                         <input type="checkbox" name="hobbies" value="2">Cricket <br>
+                         <input type="checkbox" name="hobbies" value="3">Coding <br>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Select your country
+                    </td>
+                    <td>
+                         <select name="country" id="">
+                              <option value="0" selected>--</option>
+                              <option value="1">India</option>
+                              <option value="2">Usa</option>
+                              <option value="3" disabled>China</option>
+                         </select>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Select your birth date
+                    </td>
+                    <td>
+                         <input type="date" name="dob" required>
+                    </td>
+               </tr>
+               <tr>
+                    <td>
+                         Enter your address
+                    </td>
+                    <td>
+                         <textarea name="address" cols="50" rows="2"></textarea>
+                    </td>
+               </tr>
+               <tr>
+                    <td colspan="2" align="center">
+                         <input type="submit" value="Submit">
+                         <input type="reset" value="Clear all">
+                    </td>
+               </tr>
+          </table>
+     </form>
 </body>
+
 </html>
